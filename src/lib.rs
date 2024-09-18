@@ -16,7 +16,7 @@ impl Config {
 
         let mut option_casing = false;    
 
-        if args.len() == 3 {
+        if args.len() > 3 {
            option_casing = bool::from_str(&args[3]).unwrap();
         };
 
